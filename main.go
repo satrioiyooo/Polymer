@@ -9,7 +9,7 @@ import (
 func main() {
 	http.Handle("/", http.FileServer(http.Dir("polymer")))
 	http.HandleFunc("/api/mahasiswa", user)
-	fmt.Println("Listening on Port :9090")
+	fmt.Println("Listening on Port http://localhost:9090")
 	http.ListenAndServe(":9090", nil)
 }
 
