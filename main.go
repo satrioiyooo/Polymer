@@ -26,7 +26,7 @@ var data_mahasiswa = []lepkom{
 		Foto:   "img/gambar1.jpg",
 	},
 	{
-		Nama:   "Ilham",
+		Nama:   "Tarno",
 		Kursus: "Golang Beginner",
 		Foto:   "img/gambar1.jpg",
 	},
